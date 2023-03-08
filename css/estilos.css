@@ -1,0 +1,47 @@
+
+
+/*====== Estructura sliders ======*/
+.Contenedor {
+    background-color: cyan;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+
+.EncabezadoPrincipal{
+    text-align: center;
+    border: 2px;
+    border-style:solid;
+    
+}
+
+
+
+.Encabezado{
+    display: flex;
+    border: 2px;
+    border-style:solid;
+
+    font-size: large;
+    
+    font: bold;
+    
+    line-height: 1;
+
+    
+}
+
+.Imagen{
+    border: 5px;
+    padding-right: 15px;
+}
+
+.Informacion{
+    border: 2px;
+    border-style: solid;
+
+}
